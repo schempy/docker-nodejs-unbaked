@@ -1,0 +1,11 @@
+{
+  "name": "docker-nodejs",
+  "version": "0.0.1",
+  "description": "RESTful server for example.com",
+  "author": "Brian Schemp",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.12.0",
+  }
+}
