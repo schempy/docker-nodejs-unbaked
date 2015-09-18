@@ -9,4 +9,4 @@ docker run \
 	-e "APP=index.js" \
 	-e "NODE_ENV=development" \
 	-v $(pwd)/api:/var/www/example.com/api \
-	example.com/nodejs;
+	example/nodejs;

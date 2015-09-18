@@ -5,12 +5,13 @@ var app = express();
 var bodyParser = require('body-parser');
 var port = 5000;
 
-// support json encoded bodies.
+// Support json encoded bodies.
 app.use(bodyParser.json());
 
-// parse application/x-www-form-urlencoded
+// Parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }));
 
+// Routing middleware.
 app.use('/api/widget', require('./routes/widget'));
 
 // Error handling middleware must be after all other middleware and routing.

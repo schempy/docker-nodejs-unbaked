@@ -7,4 +7,4 @@ fi
 cd /var/www/example.com/api
 npm install
 cd /var/www/example.com/api/server
-pm2 start -x $APP --name="app" --no-daemon
+pm2 start -x $APP --name="app" --no-daemon --watch
